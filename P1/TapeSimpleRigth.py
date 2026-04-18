@@ -39,3 +39,9 @@ class TapeSimpleRight:
             return self.empty_sym
         else:
             return self.tape[self.header]
+    
+    def getEndRight(self):
+        return self.end_right
+
+    def getHeader(self):
+        return self.header
